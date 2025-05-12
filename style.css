@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+.main{
+    margin: 0 auto;
+    transform: translateY(40%);
+    height: auto;
+    width: 400px;
+    background-image: linear-gradient(to bottom right,rgb(122, 237, 122),purple);
+    border-radius: 20px;
+}
+.searchBox input{
+   margin-left: 35px;
+   margin-top: 35px;
+   height: 40px;
+   width: 250px;
+   border-radius: 30px;
+   border: none;
+}
+::placeholder{
+    font-size: 18px;
+}
+.searchBox i{
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 14px;   
+}
+.cloud img{
+    margin-left: 100px;
+}
+.cloud{
+    width: 100%;
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    margin-top: -30px;
+}
+.cloud i{
+    transform: translateY(-105px);
+}
+.content{
+    transform: translateY(-130px);
+    text-align: center;
+    font-size: 35px;
+    line-height: 5px;
+    color: white;
+}
+.otherContent{
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(-90px);
+    color: white;
+    font-size: 23px;
+}
+input[type="text"]{
+    padding-left: 25px;
+}
+#searchBtn{
+    cursor: pointer;
+}

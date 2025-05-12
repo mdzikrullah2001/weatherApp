@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="searchBox">
+            <input type="text" placeholder="Search" id="textBox">
+            <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+        </div>
+        <div class="cloud">
+            <img src="./sun.png" alt="" height="70">
+            <i class="fa-solid fa-cloud"></i>
+        </div>
+        <div class="content">
+            <p class="temp"></p>
+            <p class="city"></p>
+        </div>
+        <div class="otherContent">
+            <div class="anotherContent">
+                <i class="fa-solid fa-cloud-showers-water"></i>
+                <span class="hmdt"></span><br>Humidity
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <span class="wind1"></span><br>Wind Speed
+            </div>
+        </div>
+    </div>
+    <script src="./App.js"></script>
+</body>
+</html>
