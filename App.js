@@ -13,7 +13,7 @@ $(document).ready(function(){
                 success: function(data){
                     console.log(data);
                     $(".temp").html(data.main.temp+" <sup>o</sup>C");
-                    $(".temp").text(data.name);
+                    $(".city").text(data.name);
                     $(".hmdt").text(data.main.humidity+" %");
                     $(".wind1").html(data.wind.speed+" km/h");
                 },
